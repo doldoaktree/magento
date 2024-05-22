@@ -8,6 +8,7 @@ class HomePage extends BasePage {
   constructor() {
     super();
   }
+  
   get signInBtn() {
     return $(
       "//div[@class='panel header']/ul/li[@class='authorization-link']/a"
